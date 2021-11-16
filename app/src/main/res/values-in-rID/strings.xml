@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Direktori Film</string>
+    <string name="failureConnect">Gagal Terkoneksi</string>
+    <string name="text_title">Judul Film</string>
+    <string name="text_description">Deskripsi Film</string>
+    <string name="text_release">Tayang %s</string>
+    <string name="text_name">Nama : Onny Vergiean Saputra</string>
+    <string name="text_nim">NIM : 19.11.2731</string>
+    <string name="text_about">Tentang</string>
+    <string name="text_setting">Pengaturan</string>
+    <string name="app_description">Aplikasi yang menyediakan berbagai macam film dari seluruh dunia dan beserta deskripsi film tersebut</string>
+    <string name="movie_logo">Logo Film</string>
+    <string name="back_drop_image">back drop gambar</string>
+    <string name="image_cover">cover</string>
+    <string name="image_star">gambar bintang</string>
+    <string name="image_viewer">gambar penonton</string>
+    <string name="image_translate">gambar bahasa</string>
+    <string name="rating">7</string>
+</resources>

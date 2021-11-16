@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp">
+
+    <ImageView
+        android:id="@+id/imgMoviePoster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:foreground="?attr/selectableItemBackground"
+        tools:layout_height="200dp"
+        android:contentDescription="@string/image_cover" />
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="24dp"
+        android:background="@color/orange"
+        android:layout_marginStart="@dimen/margin_sm"
+        android:layout_marginTop="@dimen/margin_sm"
+        android:alpha="0.8">
+
+        <TextView
+            android:id="@+id/tvMovieRating"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/rating"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_md" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:alpha="0.8"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_md">
+
+        <TextView
+            android:id="@+id/tvMovieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_lg"
+            tools:text="@string/text_title" />
+
+        <TextView
+            android:id="@+id/tvMovieRelease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_sm"
+            tools:text="@string/text_release" />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

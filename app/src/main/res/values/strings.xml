@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movie Directory</string>
+    <string name="failureConnect">Failed to connect</string>
+    <string name="text_title">Movie Title</string>
+    <string name="text_description">Movie Description</string>
+    <string name="text_release">Release %s</string>
+    <string name="text_name">Name : Onny Vergiean Saputra</string>
+    <string name="text_nim">NIM : 19.11.2731</string>
+    <string name="text_about">About</string>
+    <string name="text_setting">Setting</string>
+    <string name="app_description">Application that list a bunch of movie from around the world and the overview</string>
+    <string name="movie_logo">Movie Logo</string>
+    <string name="back_drop_image">back drop image</string>
+    <string name="image_cover">image cover</string>
+    <string name="image_star">image star</string>
+    <string name="image_viewer">image viewer</string>
+    <string name="image_translate">image translate</string>
+    <string name="rating">7</string>
+
+</resources>

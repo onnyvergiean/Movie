@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_md"
+        android:text="@string/app_name"
+        android:layout_marginLeft="@dimen/margin_md"
+        android:layout_marginRight="@dimen/margin_md"
+        android:textSize="@dimen/text_lg"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:src="@drawable/ic_baseline_local_movies_24"
+        android:contentDescription="@string/movie_logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_description"
+        android:textSize="@dimen/text_md"
+        android:layout_marginLeft="@dimen/margin_md"
+        android:layout_marginRight="@dimen/margin_md"
+        android:layout_marginBottom="@dimen/margin_md"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_name"
+        android:textSize="@dimen/text_md"
+        android:layout_marginLeft="@dimen/margin_md"
+        android:layout_marginRight="@dimen/margin_md"
+        android:layout_marginTop="@dimen/margin_md"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_nim"
+        android:textSize="@dimen/text_md"
+        android:layout_marginLeft="@dimen/margin_md"
+        android:layout_marginRight="@dimen/margin_md"/>
+</LinearLayout>
